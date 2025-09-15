@@ -1,7 +1,7 @@
 name: quality-check
 
 on:
-  workflow_call:
+  #workflow_call:
     inputs:
       working_directory:
         required: true

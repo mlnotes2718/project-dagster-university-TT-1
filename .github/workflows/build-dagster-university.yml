@@ -1,12 +1,12 @@
 name: Deploy Dagster University
 on:
-  push:
+  #push:
     branches:
       - main
     paths:
       - course/**
       - .github/workflows/build-dagster-university.yml
-  pull_request:
+  #pull_request:
     paths:
       - course/**
       - .github/workflows/build-dagster-university.yml
